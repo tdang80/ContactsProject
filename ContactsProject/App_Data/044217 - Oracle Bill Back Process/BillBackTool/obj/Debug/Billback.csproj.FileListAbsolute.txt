@@ -1,0 +1,8 @@
+C:\Projects\BillBack\Billback2010\Billback\Billback\obj\Debug\Billback.dll.licenses
+C:\Projects\BillBack\Billback2010\Billback\Billback\bin\Billback.dll
+C:\Projects\BillBack\Billback2010\Billback\Billback\bin\Billback.pdb
+C:\Projects\BillBack\Billback2010\Billback\Billback\obj\Debug\Billback.dll
+C:\Projects\BillBack\Billback2010\Billback\Billback\obj\Debug\Billback.pdb
+C:\Projects\BillBack\Billback2010\Billback\Billback\obj\Debug\Billback.csproj.ResolveComReference.cache
+C:\Projects\BillBack\Billback2010\Billback\Billback\obj\Debug\Billback.csprojResolveAssemblyReference.cache
+C:\Projects\BillBack\Billback2010\Billback\Billback\bin\EPPlus.xml

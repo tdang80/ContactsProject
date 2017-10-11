@@ -1,0 +1,27 @@
+Create Tech Design Doc --IN PROGRESS--
+
+Get Search TCM/UR to match Progress Search Data --IN PROGRESS--
+
+Test all application functionality --IN PROGRESS--
+	-Refresh Button --TESTED WORKING
+	-Export Button --TESTED WORKING
+	-Create new service type --TESTED WORKING
+	-Validate/Process
+	-Import Claims --TESTED WORKING
+	-Create log file - blank - FIXED AND TESTED WORKING	
+	-Batch Update --TESTED WORKING
+	-Update Monthly Fee --TESTED WORKING
+	-Add Claims --TESTED WORKING
+	-Remove Claims --TESTED WORKING	
+	-Search TCM / UR --TESTED WORKING
+	
+--DONE--
+Create all PROCEDURES in this new package
+
+--DONE--
+Create all TABLES in this new package
+--DONE--
+Create new Package in MC_INTERFACES and
+
+--DONE--GRANTED SELECT PERMISSIONS TO MC_INTERFACES
+CLAIM_WDC does not have select permissions in MC_INTERFACES

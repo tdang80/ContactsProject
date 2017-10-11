@@ -1,0 +1,13 @@
+On Development Web Server - ltcsdgwdvfacts
+	1. Application Pool - Enable 32 bit = False
+	2. Remove Oracle.DataAccess.dll and OraOps12.dll from bin folder
+	3. Target Framework: 4.0
+	4. Platform target in Build properties = Any CPU
+Doing above steps will force it to use 64 bit Oracle.DataAccess.dll on server
+(Must install 64 bit Oracl.DataAccess.dll on server when moving to production server)
+
+On Visual Studio environment 
+	1. Need Oracle.DataAccess.dll and OraOps12.dll in bin folder
+		for app to work (BUILT IN VIS STUDIO WEB SERVER ONLY)
+		(if using local IIS no need for these dll in bin folder)
+	2. Platform target in Build properties = Any CPU

@@ -1,0 +1,62 @@
+﻿@model ContactsProject.Models.ContactModel
+
+@{
+    ViewBag.Title = "Contact Details";
+
+
+}
+
+<br />
+<div class="row">
+    <div class="col-xs-12 col-md-11">
+        <h4>Contact Details</h4>    
+    </div>
+    <div class="col-xs-6 col-md-1 text-right">
+      
+        <a href="@Url.Action("Index","Home",new {page=this.ViewBag.Page })"
+           class="btn btn-default">
+            x Close
+        </a>
+
+    </div>
+</div>
+<br /><br />
+<div>
+
+    <table class="table ">
+        <tr>
+            <th width="100px" class="active">Name: </th>
+            <td >
+               @Html.DisplayFor(model => model.FirstName)
+                @Html.DisplayFor(model => model.LastName)
+            </td>
+        </tr>
+        <tr>
+            <th class="active">Email: </th>
+            <td>
+                @Html.DisplayFor(model => model.Email)
+            </td>
+        </tr>
+        <tr>
+            <th class="active">Address: </th>
+            <td>
+                @Html.Partial("_AddressDetails", Model.Address)
+            </td>
+        </tr>
+        <tr>
+            <th class="active">Phones: </th>
+            <td>
+                @foreach (var item in Model.Phones.PhoneList)
+                {
+                    @Html.Partial("_PhoneDetails", item)
+                }
+            </td>
+        </tr>
+        <tr>
+            <th class="active">Notes: </th>
+            <td>
+                @Html.DisplayFor(model => model.Notes)
+            </td>
+        </tr>
+    </table>
+</div>

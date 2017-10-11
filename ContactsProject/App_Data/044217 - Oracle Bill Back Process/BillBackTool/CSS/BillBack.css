@@ -1,0 +1,235 @@
+﻿body
+{
+    height: 100%;
+    background: #F2F4F4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F2F4F4, #FFFFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F2F4F4, #FFFFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F2F4F4, #FFFFFF); /* For Firefox 3.6 to 15 */ /* original --background: linear-gradient(to right, #6699FF, #CCFFFF);*/ /* Standard syntax (must be last) */
+    background: linear-gradient( #F2F4F4, #FFFFFF);
+ 
+}
+
+/*============== Infragistics Styling START ==============*/
+tbody.borderClass > tr > td
+{
+    border: 1px solid #C9ECF8;
+   
+}
+
+ .HeaderCaptionClass
+{
+    text-align: center;
+    background-color: #2464AA; /* Sedgwick dark blue*/
+    font-weight: bold;
+    color:white;
+}
+
+
+ tbody.igg_Item > tr:hover > td
+{
+    background-color: #99DCF2;
+}
+
+
+
+tbody > tr.ActiveRowClass > td
+{
+    background-color: #56ABCB;
+}
+
+tbody > tr > td.ImgCenter
+{
+    text-align:center;
+}
+
+.igdd_ListItemHover
+{
+    background-color: #F2F4F4;
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url(images/igdd_listitemhover.png);
+    border: solid 1px Transparent;
+    list-style-type: none;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_ListItemHover {
+		border:solid 1px white;
+	}
+
+.chbox
+{
+ 
+    background-color: #000000;
+    text-align:center;
+}
+
+tbody.igg_Item > tr > td.ErroredCell
+{
+    background-color: #FE949E;
+}
+
+ 
+/*============== Infragistics Styling END ==============*/
+
+.AjaxInd 
+{ 
+    text-align:center;
+    width:400px;
+    font-weight:bold;
+    background-color: #8EBBDF;
+    color:Black;  }
+
+
+.container {
+   background-color:transparent;
+   font-size:12px;
+   font-weight:bold;
+
+}
+
+.sidenav {
+    height : 50px;
+   
+    vertical-align:top;
+    font-size:12px;
+    font-weight:bold;
+
+}
+
+
+
+h1{
+    color:#006635;
+}
+
+.button{
+   
+
+   background-color: #2464AA; 
+    border: none;
+    color: white;
+  
+    text-align: center;
+    text-decoration:none;
+    font-weight:bold;
+    display: inline-block;
+    font-size: 12px;
+    
+    border-radius:4px;
+    Width:150px;
+    Height:25px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:3px;
+    margin-bottom:3px;
+
+}
+
+.button:hover:enabled
+{
+    background-color: #A2DEF0;
+    color: #000000;
+}
+
+.button:active:enabled{
+    background-color:#2464AA;
+    color: White;
+}
+
+.webgroup{
+     background-color :#badde9;
+     font-family:sans-serif;
+     font-weight:bold;
+     font-size:12px;
+     
+}
+
+.webtab1{
+   
+}
+
+.RequiredFields
+{
+    /*color:red;*/
+    color: #ff3333;
+    font-size: 11px;
+    background: linear-gradient( #DBDBDB, #FFFFFF);/* had to make starting gray darker since panel height is taller*/
+    
+}
+.OptionalFields{
+    color:black;
+    font-size:11px;
+    background: linear-gradient( #E0E0E0, #FFFFFF)
+}
+
+.FeeAllocFields{
+    color:black;
+    font-size:11px;
+    background: linear-gradient( #E0E0E0, #FFFFFF)
+}
+
+.verticalGap{
+    padding:5px;
+}
+
+#Tab0WebGrp1{
+  background-color:#6699FF;
+
+}
+.statusMessage{
+    color:blue;
+    font-size:12px;
+    vertical-align:middle;
+    border:thin;
+    font-weight:bold;
+}
+
+.grdAltRow
+{
+    
+}
+
+.OuterWebGrp
+{
+    background-color:White;
+}
+
+.txtFields
+{
+    width:200px;
+    text-transform:uppercase;
+}
+
+.ddl
+{
+    width:350px;
+}
+
+.GridData
+{
+    text-align:center;
+    font:12px Tahoma;
+    word-wrap:normal;
+
+    
+  
+}
+
+
+.GridHeader
+{
+    height:20px;   
+    background-color:#b5afaf ;
+    text-align: center;
+    font: 14px Tahoma;
+    color: #FFFFFF;
+    font-weight: bold;  
+
+}
+
+.SelectedRowStyle {
+    background-color :#58a7c4;
+    font-weight: bold;
+    color : #CCFF99;
+}
+

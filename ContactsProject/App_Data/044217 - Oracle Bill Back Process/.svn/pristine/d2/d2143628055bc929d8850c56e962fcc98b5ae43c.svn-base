@@ -1,0 +1,123 @@
+﻿body {
+   background: linear-gradient( #F2F4F4, #FFFFFF);
+}
+
+.RequiredFields
+{
+    /*color:red;*/
+    color: #ff3333;
+    font-size: 11px;
+    background: linear-gradient( #DBDBDB, #FFFFFF);/* had to make starting gray darker since panel height is taller*/
+    
+}
+
+.OptionalFields
+{
+    color:black;
+    font-size:11px;
+    background: linear-gradient( #E0E0E0, #FFFFFF)
+}
+
+.verticalGap{
+    padding:5px;
+}
+
+h1{
+    color:#006635;
+}
+
+.button{
+   
+
+   background-color: #2464AA; 
+    border: none;
+    color: white;
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius:4px;
+    Width:200px;
+    Height:25px;
+
+}
+
+.button:hover:enabled
+{
+    background-color: #A2DEF0;
+    color: #000000;
+
+}
+
+.GridData
+{
+    text-align:center;
+    font:14px Tahoma;
+    word-wrap:normal;
+
+    
+  
+}
+
+
+.GridHeader
+{
+    height:20px;   
+    background-color: #2464AA; 
+    text-align: center;
+    font: 14px Tahoma;
+    color: #FFFFFF;
+    font-weight: bold;  
+
+}
+
+.Highlight
+{
+    background-color:Yellow;
+}
+
+/*============== Infragistics Styling START ==============*/
+tbody.borderClass > tr > td
+{
+    border: 1px solid #C9ECF8;
+   
+}
+
+ .HeaderCaptionClass
+{
+    text-align: center;
+    background-color: #2464AA; /* Sedgwick dark blue*/
+    font-weight: bold;
+    color:white;
+}
+
+
+ tbody.igg_Item > tr:hover > td
+{
+    background-color: #99DCF2;
+}
+
+
+
+tbody > tr.ActiveRowClass > td
+{
+    background-color: #56ABCB;
+}
+
+.igdd_ListItemHover
+{
+    background-color: #F2F4F4;
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url(images/igdd_listitemhover.png);
+    border: solid 1px Transparent;
+    list-style-type: none;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_ListItemHover {
+		border:solid 1px white;
+	}
+
+ 
+/*============== Infragistics Styling END ==============*/

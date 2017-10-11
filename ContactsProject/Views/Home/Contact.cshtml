@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ContactsProject.Models.ContactModel>
+@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+
+<div>
+    <table class="search-result-table display" id="ToolUserTable">
+        <thead>
+            <tr>
+                <th>Full Name</th>  
+                <th>City</th> 
+                <th>State</th>                            
+            </tr>
+        </thead>
+        <tfoot>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FirstName  @item.LastName</td> 
+                    <td>@item.Address.City</td>           
+                    <td>@item.Address.State</td>       
+                    <td>
+                       
+                      <a href="@Url.Action("ViewContactDetails","Home",new { id = item.ContactId})" > View Details</a>
+                    </td>
+                </tr>
+            }          
+        </tfoot>
+        <tbody></tbody>
+    </table>
+</div>
+
+@if (ViewBag.Page > 0)
+{
+    <a href="@Url.Action("Contact", new { page = ViewBag.Page - 1 })"
+       class="btn btn-default">
+        &laquo; Prev
+    </a>
+}
+@if (ViewBag.Page < ViewBag.MaxPage)
+{
+    <a href="@Url.Action("Contact", new { page = ViewBag.Page + 1 })"
+       class="btn btn-default">
+        Next &raquo;
+    </a>
+}
+
